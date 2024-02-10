@@ -1,7 +1,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background: #fff;
 }
 
@@ -24,14 +24,14 @@ img {
 
 /* ------------------------------------Header ----------------------------*/ 
 
-.part-blue {
+.part-black {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.16667;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;
+color: #2e2f42;
 }
 
 .logo {
@@ -41,7 +41,7 @@ font-size: 18px;
 line-height: 1.16667;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2e2f42;
+color: #4d5ae5;
 }
 
 .nav-header {
@@ -55,11 +55,12 @@ color: #2e2f42;
 
 .nav-header:hover,
 .nav-header:focus {
-    color: #404bbf
+    color: #404bbf;
 }
 
 .adress-nav {
 font-family: "Roboto", sans-serif;
+font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -67,8 +68,28 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.adress-nav:hover,
-.adress-nav:focus {
+ .mail {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
+
+ .tel {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
+
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
     color: #404bbf;
 }
 
@@ -78,14 +99,17 @@ color: #434455;
 /* -------------------------------------main ---------------------------------------*/
 /* ---------------------------------title section----------------------------------- */
 
-.title-h1 {
+.first-section {
+    background-color: #2e2f42;
+}
+.title-effective-solution {
 font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
+text-align: center;
 letter-spacing: 0.02em;
 color: #fff;
-background-color:  #2e2f42;
 }
 
 .button-order { 
@@ -95,8 +119,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
+}
+
+.button-order:hover,
+.button-order:focus {
+    background: #404bbf;
 }
 
 /* ---------------------------------/title section----------------------------------- */
@@ -123,13 +151,22 @@ background: #4d5ae5;
 /* ----------------------------------/Our Benefits------------------------------------*/
 
 /* ----------------------------------Our Team------------------------------------*/
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.backcolor-photo {
+    background-color: #FFFFFF;
+}
+
 .text-our-team {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
     color: #2e2f42;
 }
 
@@ -158,9 +195,10 @@ background: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
     color: #2e2f42;
 }
 
@@ -185,6 +223,10 @@ background: #4d5ae5;
 /* ----------------------------------/Our Portfolio------------------------------------*/
 
 /* ---------------------------------- Footer ------------------------------------*/
+.footer {
+    background-color: #2e2f42;
+}
+
 .text-footer {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
