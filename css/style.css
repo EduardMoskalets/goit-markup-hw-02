@@ -74,10 +74,13 @@ color: #2e2f42;
 
 
 .mail:hover,
-.mail:focus,
+.mail:focus, {
+    color: #404bbf;
+}
+
 .tel:hover,
 .tel:focus {
-    color: #404bbf;
+        color: #404bbf;
 }
 
 /* ------------------------------------/Header ---------------------------------*/
