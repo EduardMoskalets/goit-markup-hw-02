@@ -71,9 +71,8 @@ color: #2e2f42;
     color: #434455;
  }
 
-
 .contacts:hover,
-.contacts:focus, {
+.contacts:focus {
     color: #404bbf;
 }
 
