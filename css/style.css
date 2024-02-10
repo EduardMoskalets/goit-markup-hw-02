@@ -63,8 +63,7 @@ color: #2e2f42;
 
 }
 
- .mail, 
- .tel {
+ .contacts {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -73,15 +72,11 @@ color: #2e2f42;
  }
 
 
-.mail:hover,
-.mail:focus, {
+.contacts:hover,
+.contacts:focus, {
     color: #404bbf;
 }
 
-.tel:hover,
-.tel:focus {
-        color: #404bbf;
-}
 
 /* ------------------------------------/Header ---------------------------------*/
 
